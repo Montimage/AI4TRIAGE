@@ -20,9 +20,9 @@ def process_csv(input_file, output_file):
 
 # File paths and output paths
 files_to_process = [
-    ('/home/ubuntu/Ai4Triage_intern/CSVfile/csv1-3small/anonimized_my_app_cortex_xdr (alertas xdr)_sampled .csv', '/home/ubuntu/Ai4Triage_intern/CSVfile/csv1-3small/organized1.csv'),
-    ('/home/ubuntu/Ai4Triage_intern/CSVfile/csv1-3small/anonimized_my_app_netskope (proxy)_sampled.csv', '/home/ubuntu/Ai4Triage_intern/CSVfile/csv1-3small/organized2.csv'),
-    ('/home/ubuntu/Ai4Triage_intern/CSVfile/csv1-3small/anonimized_my_app_proofpoint (mail)_sampled.csv', '/home/ubuntu/Ai4Triage_intern/CSVfile/csv1-3small/organized3.csv')
+    ('/home/ubuntu/AI4TRIAGE/Ai4Triage_intern/CSVfiles/csv1-3small/anonimized_my_app_cortex_xdr (alertas xdr)_sampled .csv', '/home/ubuntu/AI4TRIAGE/Ai4Triage_intern/CSVfiles/csv1-3small/organized1.csv'),
+    ('/home/ubuntu/AI4TRIAGE/Ai4Triage_intern/CSVfiles/csv1-3small/anonimized_my_app_netskope (proxy)_sampled.csv', '/home/ubuntu/AI4TRIAGE/Ai4Triage_intern/CSVfiles/csv1-3small/organized2.csv'),
+    ('/home/ubuntu/AI4TRIAGE/Ai4Triage_intern/CSVfiles/csv1-3small/anonimized_my_app_proofpoint (mail)_sampled.csv', '/home/ubuntu/AI4TRIAGE/Ai4Triage_intern/CSVfiles/csv1-3small/organized3.csv')
 ]
 
 # Process all files

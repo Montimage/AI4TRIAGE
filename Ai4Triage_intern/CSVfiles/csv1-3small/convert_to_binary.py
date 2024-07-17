@@ -72,5 +72,5 @@ def process_file(input_file_path, output_file_path):
     print(f"Processed file saved to: {output_file_path}")
 
 # Process the first file
-process_file('/home/ubuntu/Ai4Triage_intern/CSVfile/csv1-3small/anonimized_my_app_cortex_xdr (alertas xdr)_sampled .csv', 
-             '/home/ubuntu/Ai4Triage_intern/CSVfile/csv1-3small/processed_data.csv')
+process_file('/home/ubuntu/AI4TRIAGE/Ai4Triage_intern/CSVfiles/csv1-3small/anonimized_my_app_cortex_xdr (alertas xdr)_sampled .csv', 
+             '/home/ubuntu/AI4TRIAGE/Ai4Triage_intern/CSVfiles/csv1-3small/processed_data.csv')

@@ -43,9 +43,9 @@ def process_file(input_file_path, output_file_path):
     print(f"Processed file saved to: {output_file_path}")
 
 files_to_process = [
-    ('/home/ubuntu/Ai4Triage_intern/CSVfile/csv1-3small/anonimized_my_app_cortex_xdr (alertas xdr)_sampled .csv', '/home/ubuntu/Ai4Triage_intern/CSVfile/csv1-3small/processed1.csv'),
-    ('/home/ubuntu/Ai4Triage_intern/CSVfile/csv1-3small/anonimized_my_app_netskope (proxy)_sampled.csv', '/home/ubuntu/Ai4Triage_intern/CSVfile/csv1-3small/processed2.csv'),
-    ('/home/ubuntu/Ai4Triage_intern/CSVfile/csv1-3small/anonimized_my_app_proofpoint (mail)_sampled.csv', '/home/ubuntu/Ai4Triage_intern/CSVfile/csv1-3small/processed3.csv')
+    ('/home/ubuntu/AI4TRIAGE/Ai4Triage_intern/CSVfiles/csv1-3small/anonimized_my_app_cortex_xdr (alertas xdr)_sampled .csv', '/home/ubuntu/AI4TRIAGE/Ai4Triage_intern/CSVfiles/csv1-3small/processed1.csv'),
+    ('/home/ubuntu/AI4TRIAGE/Ai4Triage_intern/CSVfiles/csv1-3small/anonimized_my_app_netskope (proxy)_sampled.csv', '/home/ubuntu/AI4TRIAGE/Ai4Triage_intern/CSVfiles/csv1-3small/processed2.csv'),
+    ('/home/ubuntu/AI4TRIAGE/Ai4Triage_intern/CSVfiles/csv1-3small/anonimized_my_app_proofpoint (mail)_sampled.csv', '/home/ubuntu/AI4TRIAGE/Ai4Triage_intern/CSVfiles/csv1-3small/processed3.csv')
 ]
 
 for input_file, output_file in files_to_process:
@@ -62,9 +62,9 @@ db = client[database_name]
 collection = db[collection_name]
 
 file_paths = [
-    "/home/ubuntu/Ai4Triage_intern/CSVfile/csv1-3small/processed1.csv",
-    "/home/ubuntu/Ai4Triage_intern/CSVfile/csv1-3small/processed2.csv",
-    "/home/ubuntu/Ai4Triage_intern/CSVfile/csv1-3small/processed3.csv"
+    "/home/ubuntu/AI4TRIAGE/Ai4Triage_intern/CSVfiles/csv1-3small/processed1.csv",
+    "/home/ubuntu/AI4TRIAGE/Ai4Triage_intern/CSVfiles/csv1-3small/processed2.csv",
+    "/home/ubuntu/AI4TRIAGE/Ai4Triage_intern/CSVfiles/csv1-3small/processed3.csv"
 ]
 
 for file_path in file_paths:

@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split  # To split the data into t
 from sklearn.neighbors import KNeighborsClassifier  # KNN classifier
 from sklearn.metrics import classification_report, accuracy_score  # To evaluate model performance
 
-data_cleaned = pd.read_csv('/home/ubuntu/Ai4Triage_intern/CSVfile/csv1-3small/processed1.csv')
+data_cleaned = pd.read_csv('/home/ubuntu/AI4TRIAGE/Ai4Triage_intern/CSVfiles/csv1-3small/processed1.csv')
 
 # Assuming 'alert_type' is the label column name, replace it with the actual column name if different
 target_column_name = ['matching_service_rule_id']  # Label column name
