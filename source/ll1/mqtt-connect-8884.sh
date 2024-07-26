@@ -1,0 +1,1 @@
+mosquitto_sub -h 34.255.17.2 -p 8884 -u lnguyen -P Enact2019 --cafile /home/montimage/INDRA-MQTT-Connection/Public-ca-chain.cert.pem --cert /home/montimage/INDRA-MQTT-Connection/lnguyen.cert.pem --key /home/montimage/INDRA-MQTT-Connection/lnguyen.key.pem -t "#"

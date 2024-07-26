@@ -1,0 +1,11 @@
+{
+    "name": "node-red-project",
+    "description": "A Node-RED Project",
+    "version": "0.0.1",
+    "private": true,
+    "dependencies": {
+        "node-red-contrib-message-counter": "~1.0.1",
+        "node-red-dashboard": "~3.2.0",
+        "node-red-mongodb": "0.0.18"
+    }
+}
