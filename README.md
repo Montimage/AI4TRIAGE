@@ -1,6 +1,5 @@
 # AI4TRIAGE
 
-**AI4TRIAGE - CAIXA bank use case**  
 This project processes attack logs, labels the data, and trains a model using the KNN algorithm.
 
 ---
@@ -56,8 +55,7 @@ This project uses a configuration file named `config.json` to manage parameters 
 
 ### Step 1: Download the Dataset
 
-- **Source:** Download the CSV dataset from the provided [Shared folder](https://tecnalia365.sharepoint.com/sites/TEAMGRP106747HORIZON/Documentos%20compartidos/General/AI4CYBER_Project/Work%20Packages/WP07%20Demonstration%20in%20Use%20Cases/Use_Cases/UC2%20(CXB)/Datasets.zip?csf=1&web=1&e=IeQIlM&CID=147571dc-8f18-4fc7-adda-8323ca2b8ec1).
-- **Destination:** Save the file in the following directory: `Datasets/raw/`
+- **Destination:** Save the datasets in the following directory: `Datasets/raw/`
   *(Make sure the `Datasets/raw/` directory exists; if not, create it.)*
 
 ### Step 2: Clean the Raw Data
